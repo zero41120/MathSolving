@@ -8,5 +8,6 @@ public class Multiples_of_3_and_5 {
 		int a = 0, i = 0;
 		while (++i < 1000) a += i % 3 == 0 || i % 5 == 0 ? i : 0;
 		System.out.print(a);
+		// 233168
 	}
 }
