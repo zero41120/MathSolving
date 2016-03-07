@@ -10,6 +10,7 @@ public class Largest_prime_factor {
 				for (j = 2, p = 1; j < i; p = i % j++ == 0 ? 0 : p);System.out.println(l = p == 1 ? i : l);
 			}
 		}
+		// 6857
 	}
 	
 }
