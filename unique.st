@@ -27,7 +27,7 @@ Integer extend[
          check := check // 10.
          "If array at the digit is not 0, omit this number"
          ((array at: index) > 0 ) ifTrue:[ ^self ].
-         "If array at the digit is 0, set it to 1 to indicated used"
+         "If array at the digit is 0, set it to 1 to indicate used"
          array at: index put: 1.
       ].
 
