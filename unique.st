@@ -1,6 +1,6 @@
 "Find the unique number."
 "An unique number is define as: A number with no repeated digit"
-"i.e. 121, 988, 677... has a repeated repeated"
+"i.e. 121, 988, 677... has a repeated digit"
 
 Integer extend[
    "Finds the unique number under 10 raise to self"   
